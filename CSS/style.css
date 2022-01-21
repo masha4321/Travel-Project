@@ -69,6 +69,10 @@ p {
   object-fit: cover;
 }
 
+.nav-link{
+  text-align: center;
+}
+
 p {
 font-size: 30px;
 padding: 30px;
