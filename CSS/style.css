@@ -1,88 +1,62 @@
 body {
-  font-family: "Mr Bedfort", cursive !important;
-}
-
-p {
-  padding: 20px;
-  text-align: center;
-  margin: 0px;
-}
-
-.card {
-  margin-bottom: 10px;
-  padding: 0px;
-}
-
-.card-body {
-  text-align: center;
-}
-
-.underCarousel {
-  text-align: center;
-  padding: 25px;
-}
-
-.btn-info {
-  background-color: #a9bf04;
-  color: #2c4001;
-  border-color: #a9bf04;
-  cursor: pointer;
-}
-
-.page-footer {
-  background-color: #2c4001;
-  color: white;
-}
-
-.card-img-top {
-  width: 100%;
-  height: 80vw;
-  object-fit: cover;
-}
-
-.big_image {
-  display: none;
-}
-
-.underCarousel {
-  text-align: center;
-}
-
-.row {
-  justify-content: space-between;
-  margin: 10px;
-}
-
-.container {
-  padding: 0px;
-}
-
-li {
-  text-align: center;
-  font-size: 20px;
-}
-
-/*Extra small devices (phones, 600px and down)*/
-@media only screen and (max-width: 600px) {
-  .navbar-brand {
-    padding-bottom: 0px;
-    padding-top: 10px;
+    font-family: "Mr Bedfort", cursive !important;
   }
+  
+  p {
+    padding: 20px;
+    text-align: center;
+    margin: 0px;
+  }
+
+  .card {
+    margin-bottom: 10px;
+    padding: 0px;
+  }
+  
+  .card-body {
+    text-align: center;
+  }
+  
+  .underCarousel {
+    text-align: center;
+    padding: 25px;
+  }
+  
+  .btn-info {
+    background-color: #a9bf04;
+    color: #2c4001;
+    border-color: #a9bf04;
+    cursor: pointer;
+  }
+  
+  .page-footer {
+    background-color: #2c4001;
+    color: white;
+  }
+  
+  .card-img-top {
+    width: 100%;
+    height: 80vw;
+    object-fit: cover;
+  }
+  
+  .big_image {
+    display: none;
+  }
+  
+  .underCarousel {
+    text-align: center;
+  }
+  
+  .row {
+    justify-content: space-between;
+    margin: 10px;
+  }
+  
   .container {
-    padding: 0px 0px 0px 0px;
+    padding: 0px;
   }
-}
-
-/*Small devices (portrait tablets and large phones, 600px and up)*/
-@media only screen and (min-width: 600px) {
-}
-
-/*Medium devices (landscape tablets, 768px and up)*/
-@media only screen and (min-width: 768px) {
-  .navbar-brand {
-    font-size: 24px;
-    padding-bottom: 0px;
-  }
+  
 
   .container-fluid {
     padding: 0px;
@@ -95,70 +69,132 @@ li {
     object-fit: cover;
   }
 
-  p {
-    font-size: 30px;
-    padding: 30px;
-  }
-
-  .row {
-    justify-content: space-between;
-    margin: 0px 25px 0px 25px;
-  }
-
+p {
+  font-size: 30px;
+  padding: 30px;
 }
 
-/*Large devices (laptops/desktops, 992px and up)*/
-@media only screen and (min-width: 992px) {
-  .navbar-expand-lg .navbar-nav .nav-link {
-    padding-right: 2rem;
-    padding-left: 0.5rem;
-  }
-
-  .navbar-expand-lg {
-    font-size: 20px;
-    padding: 15px 25px;
-  }
-  .btn-info {
-    font-size: 20px;
-  }
-
-  .container-fluid {
-    padding: 0px;
-    text-align: center;
-  }
-  .card-img-top {
-    width: 100%;
-    height: 40vw;
-    object-fit: cover;
-  }
-
-  .card {
-    margin-bottom: 30px;
-  }
-
-  .card-title {
-    font-size: 30px;
-  }
-
-  .container {
-    padding: 0px;
-  }
+.row {
+  justify-content: space-between;
+  margin: 0px 25px 0px 25px;
 }
 
-/*Extra large devices (large laptops and desktops, 1200px and up)*/
-@media only screen and (min-width: 1200px) {
-  .card-img-top {
-    width: 100%;
-    height: 20vw;
-    object-fit: cover;
+  
+#formHeading{
+  color: #a9bf04;
+}
+
+.paddingForm{
+    margin-top: 1.5em;
+}
+
+.form-check-label{
+    padding-right: 10px;
+    margin-left: 30%;
+}
+
+.form-control {
+    border-top-style: none;
+    border-left-style: none;
+    border-right-style: none;
+    border-color: #17a2b8;
+}
+
+.form-control-lg{
+    border-radius: 0px;
+}
+
+
+
+  /*Extra small devices (phones, 600px and down)*/
+  @media only screen and (max-width: 600px) {
+    .navbar-brand {
+      padding-bottom: 0px;
+      padding-top: 10px;
+    }
+    .container {
+      padding: 0px 0px 0px 0px;
+    }
+  }
+  
+  /*Small devices (portrait tablets and large phones, 600px and up)*/
+  @media only screen and (min-width: 600px) {
+  }
+  
+  /*Medium devices (landscape tablets, 768px and up)*/
+  @media only screen and (min-width: 768px) {
+    .navbar-brand {
+      font-size: 24px;
+      padding-bottom: 0px;
+    }
+  
+
+@media (max-width: 991px){
+    .paddingTopRow{
+        margin-top: 1.5em;
+    }
+}
+
+@media (min-width: 1280px){
+    #formBanner{
+        min-width: 100%;
+    }
+}
+
+
+  /*Large devices (laptops/desktops, 992px and up)*/
+  @media only screen and (min-width: 992px) {
+    .navbar-expand-lg .navbar-nav .nav-link {
+      padding-right: 2rem;
+      padding-left: 0.5rem;
+    }
+  
+    .navbar-expand-lg {
+      font-size: 20px;
+      padding: 15px 25px;
+    }
+    .btn-info {
+      font-size: 20px;
+    }
+  
+    .container-fluid {
+      padding: 0px;
+      text-align: center;
+    }
+    .card-img-top {
+      width: 100%;
+      height: 40vw;
+      object-fit: cover;
+    }
+  
+    .card {
+      margin-bottom: 30px;
+    }
+  
+    .card-title {
+      font-size: 30px;
+    }
+  
+    .container {
+      padding: 0px;
+    }
   }
 
-  .img-fluid {
-    display: none;
-  }
-
-  .big_image {
-    display: block;
-    width: 100%;
+  /*Extra large devices (large laptops and desktops, 1200px and up)*/
+  @media only screen and (min-width: 1200px) {
+    .card-img-top {
+      width: 100%;
+      height: 20vw;
+      object-fit: cover;
+    }
+  
+    .img-fluid {
+      display: none;
+    }
+  
+    .big_image {
+      display: block;
+      width: 100%;
+    }
   }
 }

@@ -6,8 +6,9 @@ nav, main{
 }
 
 #secondnav{
-    margin-top: 56px;
+    top: 56px;
     background-color: rgb(179, 179, 179) !important;
+    z-index: 1;
 }
 
 #secondnav ul{
@@ -70,7 +71,7 @@ h2, h3{
 }
 
 #rooms, #suites, #villas{
-    scroll-margin-bottom: 40px;
+    scroll-margin-top: 115px;
 }
 
 #maldive1, #oppulent1, #architecture1, #modern1, #balcony1, #luxurious1, #brightest1, #maldive2, #oppulent2, #architecture2, #maldiveDesc1, #maldiveDesc2, #modern2, #balcony2, #luxurious2, #brightest2, #oppulentDesc1, #oppulentDesc2, #architectureDesc1, #architectureDesc2, #morderDesc1, #morderDesc2, #balconyDesc1, #balconyDesc2, #luxDesc1, #luxDesc2, #brightDesc1, #brightDesc2{
