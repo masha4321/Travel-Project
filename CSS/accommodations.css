@@ -10,6 +10,14 @@ nav, main{
     margin-top: 40px;
 }
 
+#secondnav ul{
+    margin: auto;
+}
+
+#roomSection{
+    padding-top: 80px;
+}
+
 #image1{
     border-top-style: solid;
     border-left-style: solid;
