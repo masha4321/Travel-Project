@@ -1,0 +1,166 @@
+
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Book Now</title>
+    <!--Font-->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Mr+Bedfort&display=swap"
+      rel="stylesheet"/>
+    <!-- Bootstrap CSS -->
+    <link
+      rel="stylesheet"
+      href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css"
+      integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh"
+      crossorigin="anonymous"
+    />
+    <!--Stylesheet-->
+    <link rel="stylesheet" href="CSS/booknow.css" />
+  </head>
+  <body>
+    <!--Navbar-->
+    <nav class="navbar sticky-top navbar-expand-lg navbar-light bg-light">
+      <a class="navbar-brand" href="index.html">Hotel Motel</a>
+      <button
+        class="navbar-toggler"
+        type="button"
+        data-toggle="collapse"
+        data-target="#navbarSupportedContent"
+        aria-controls="navbarSupportedContent"
+        aria-expanded="false"
+        aria-label="Toggle navigation"
+      >
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarSupportedContent">
+        <ul class="navbar-nav ml-auto">
+          <li class="nav-item">
+            <a class="nav-link" href="accommodations.html">Accommodation</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="amenities.html">Amenities</a>
+          </li>
+          <li class="nav-item dropdown">
+            <a
+              class="nav-link dropdown-toggle"
+              href="#"
+              id="navbarDropdown"
+              role="button"
+              data-toggle="dropdown"
+              aria-haspopup="true"
+              aria-expanded="false"
+            >
+              Gallery
+            </a>
+            <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+              <a class="dropdown-item" href="#">Stay</a>
+              <a class="dropdown-item" href="#">Eat</a>
+              <a class="dropdown-item" href="#">Explore</a>
+              <a class="dropdown-item" href="#">Experience</a>
+            </div>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#">Exclusive Offers</a>
+          </li>
+          <li class="nav-item">
+            <button type="button" class="btn btn-info">Book Now</button>
+          </li>
+        </ul>
+      </div>
+    </nav>
+    <!--End of navbar-->
+    <header>
+      <img id="formBanner" class="img-fluid" src="images/hotelLandscape.jpg" alt="Hotel landscape" />
+    </header>
+    <main class="container mt-3">
+        <h1 class="text-center" id="formHeading">Reserve your luxurious stay now</h1>
+        <form>
+          <div class="row mt-4">
+            <div class="paddingTopRow col-lg-3">
+              <label for="title">Title</label>
+            <input name="submitted_title" class="form-control form-control-lg" type="text" placeholder="e.g.: Mr, Mrs or Dr" required>
+            </div>
+            <div class="paddingTopRow col-lg-4">
+            <label for="firstName">First Name</label>
+            <input name="submitted_fName" class="form-control form-control-lg" type="text" placeholder="First Name" required>
+            </div>
+            <div class="paddingTopRow col-lg-5">
+            <label for="lastName">Last Name</label>
+            <input name="submitted_lName" class="form-control form-control-lg" type="text" placeholder="Last Name" required>
+            </div>
+            <div class="paddingForm col-lg-2">
+            <label for="guest">Guests</label> <!-- drop down for numbers 0 to 10 -->
+            <select name="submitted_guests" class="form-control form-control-lg">
+              <option value="0">0</option>
+              <option value="1">1</option>
+              <option value="2">2</option>
+              <option value="3">3</option>
+              <option value="4">4</option>
+              <option value="5">5</option>
+              <option value="6">6</option>
+              <option value="7">7</option>
+              <option value="8">8</option>
+              <option value="9">9</option>
+              <option value="10">10</option>
+            </select>
+            </div>
+            <div class="paddingForm col-lg-10">
+            <label for="roomName">Name of Room</label> <!-- drop down for room names Balcony View Suit-->
+            <select name="submitted_room" class="form-control form-control-lg">
+              <option value="Maldive Dream Room">Maldive Dream Room</option>
+              <option value="Oppulent Room">Oppulent Room</option>
+              <option value="Architecture's Finest Suite">Architecture's Finest Suite</option>
+              <option value="Modern Heaven Suite">Modern Heaven Suite</option>
+              <option value="Balcony View Suite">Balcony View Suite</option>
+              <option value="Luxurious Villa">Luxurious Villa</option>
+              <option value="Brightest Villa">Brightest Villa</option>
+            </select>
+            </div>
+            <div class="paddingForm col-lg-6">
+            <label for="email">Email</label>
+            <input name="submitted_email" class="form-control form-control-lg" type="email" placeholder="name@example.com" required>
+            </div>
+            <div class="paddingForm col-lg-6">
+            <label for="phone">Phone</label>
+            <input name="submitted_phone" class="form-control form-control-lg" type="tel" placeholder="123-456-7890" required>
+            </div>
+            <div class="paddingForm col-lg-4">
+            <label for="startDate">Date of Arrival</label>
+            <input name="submitted_doa" class="form-control form-control-lg" type="date" required>
+            </div>
+            <div class="paddingForm col-lg-4 offset-lg-4">
+            <label for="endDate">Departure Date</label>
+            <input name="submitted_dod" class="form-control form-control-lg" type="date" required>
+            </div>
+            <div class="col-12 mt-4 text-center">
+            <label for="request">Requests</label><br />
+            <textarea name="submitted_requests" rows="4" cols="50" placeholder="If you have any requests, please enter it here."></textarea>
+            </div>
+          </div>
+          <div class="text-center">
+            <button type="submit" class="btn btn-info">Submit</button>
+          </div>
+        </form>
+    </main>
+    <!-- Footer -->
+    <footer class="page-footer font-small">
+      <div class="footer-copyright text-center py-3">
+        © Hotel Motel
+      </div>
+    </footer>
+        <!-- Optional JavaScript; choose one of the two! -->
+
+        <!-- Option 1: Bootstrap Bundle with Popper -->
+        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p" crossorigin="anonymous"></script>
+
+        <!-- Option 2: Separate Popper and Bootstrap JS -->
+        <!--
+        <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.10.2/dist/umd/popper.min.js" integrity="sha384-7+zCNj/IqJ95wo16oMtfsKbZ9ccEh31eOz1HGyDuCQ6wgnyJNSYdrPa03rtR1zdB" crossorigin="anonymous"></script>
+        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.min.js" integrity="sha384-QJHtvGhmr9XOIpI6YVutG+2QOK9T+ZnN4kzFN1RtK3zEFEIsxhlmWl5/YESvpZ13" crossorigin="anonymous"></script>
+        -->
+    </body>
+</html>
