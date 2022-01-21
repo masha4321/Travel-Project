@@ -107,6 +107,7 @@ color: #a9bf04;
 .hotelIcon{
   width: 50px;
   height: auto;
+  padding: 0px;
 }
 
 /*Extra small devices (phones, 600px and down)*/
