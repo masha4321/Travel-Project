@@ -26,6 +26,7 @@ p {
   background-color: #a9bf04;
   color: #2c4001;
   border-color: #a9bf04;
+  cursor: pointer;
 }
 
 .page-footer {
@@ -39,28 +40,36 @@ p {
   object-fit: cover;
 }
 
-.big_image{
+.big_image {
   display: none;
 }
 
-.underCarousel{
+.underCarousel {
   text-align: center;
 }
-/*MEDIA QUERIES*
+
+.row {
+  justify-content: space-between;
+  margin: 10px;
+}
+
+.container {
+  padding: 0px;
+}
+
 /*Extra small devices (phones, 600px and down)*/
 @media only screen and (max-width: 600px) {
   .navbar-brand {
     padding-bottom: 0px;
     padding-top: 10px;
   }
-  .container{
+  .container {
     padding: 0px 0px 0px 0px;
   }
 }
+
 /*Small devices (portrait tablets and large phones, 600px and up)*/
 @media only screen and (min-width: 600px) {
-  
-  
 }
 
 /*Medium devices (landscape tablets, 768px and up)*/
@@ -85,6 +94,12 @@ p {
     font-size: 30px;
     padding: 30px;
   }
+
+  .row {
+    justify-content: space-between;
+    margin: 0px 25px 0px 25px;
+  }
+
 }
 
 /*Large devices (laptops/desktops, 992px and up)*/
@@ -111,9 +126,17 @@ p {
     height: 40vw;
     object-fit: cover;
   }
-  
+
   .card {
-    margin: 20px;
+    margin-bottom: 30px;
+  }
+
+  .card-title {
+    font-size: 30px;
+  }
+
+  .container {
+    padding: 0px;
   }
 }
 
@@ -125,14 +148,12 @@ p {
     object-fit: cover;
   }
 
-  .img-fluid{
+  .img-fluid {
     display: none;
   }
 
-  .big_image{
-    display:block;
+  .big_image {
+    display: block;
     width: 100%;
   }
-
-
 }
