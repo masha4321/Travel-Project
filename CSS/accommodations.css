@@ -42,7 +42,7 @@ h3{
     height: auto;
 }
 
-#description1, #description2{
+#maldiveDesc1, #maldiveDesc2, #oppulentDesc1, #oppulentDesc2, #architectureDesc1, #architectureDesc2, #morderDesc1, #morderDesc2, #balconyDesc1, #balconyDesc2, #luxDesc1, #luxDesc2, #brightDesc1, #brightDesc2{
     border-left-style: solid;
     border-right-style: solid;
     border-width: 2px;
@@ -50,18 +50,18 @@ h3{
     align-items: center;
 }
 
-#description2{
+#maldiveDesc2, #oppulentDesc2, #architectureDesc2, #morderDesc2, #balconyDesc2, #luxDesc2, #brightDesc2{
     border-bottom: solid;
     border-width: 2px;
 }
 
-#description2 ul{
+#maldiveDesc2 ul, #oppulentDesc2 ul, #architectureDesc2 ul, #morderDesc2 ul, #balconyDesc2 ul, #luxDesc2 ul, #brightDesc2 ul{
     margin: auto;
     padding-left: 0px;
     list-style-type: none;
 }
 
-#description2 ul li{
+#maldiveDesc2 ul li, #oppulentDesc2 ul li, #architectureDesc2 ul li, #morderDesc2 ul li, #balconyDesc2 ul li, #luxDesc2 ul li, #brightDesc2 ul li{
     margin-bottom: 10px;
 }
 
@@ -73,7 +73,7 @@ h2, h3{
     scroll-margin-bottom: 40px;
 }
 
-#maldive1, #oppulent1, #architecture1, #modern1, #balcony1, #luxurious1, #brightest1, #maldive2, #oppulent2, #architecture2, #description1, #description2, #modern2, #balcony2, #luxurious2, #brightest2{
+#maldive1, #oppulent1, #architecture1, #modern1, #balcony1, #luxurious1, #brightest1, #maldive2, #oppulent2, #architecture2, #maldiveDesc1, #maldiveDesc2, #modern2, #balcony2, #luxurious2, #brightest2, #oppulentDesc1, #oppulentDesc2, #architectureDesc1, #architectureDesc2, #morderDesc1, #morderDesc2, #balconyDesc1, #balconyDesc2, #luxDesc1, #luxDesc2, #brightDesc1, #brightDesc2{
     border-color: rgba(0,0,0,.125);    
 }
 
@@ -116,12 +116,12 @@ h2, h3{
         border-right-style: solid;
         padding: 0px;
     }
-    #description1{
+    #maldiveDesc1, #oppulentDesc1, #architectureDesc1, #morderDesc1, #balconyDesc1, #luxDesc1, #brightDesc1{
         border-left-style: none;
         border-top-style: solid;
         border-right-style: solid;
     }
-    #description2{
+    #maldiveDesc2, #oppulentDesc2, #architectureDesc2, #morderDesc2, #balconyDesc2, #luxDesc2, #brightDesc2{
         border-right-style: none;
         border-left-style: solid;
         border-bottom-style: solid;
