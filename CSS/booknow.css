@@ -1,0 +1,50 @@
+@import url('https://fonts.googleapis.com/css2?family=Mr+Bedfort&display=swap');
+/*font-family: 'Mr Bedfort', cursive;*/
+
+main{
+    font-family: 'Mr Bedfort', cursive;
+}
+
+#formHeading{
+    color: #a9bf04;
+}
+
+.paddingForm{
+    margin-top: 1.5em;
+}
+
+.form-check-label{
+    padding-right: 10px;
+    margin-left: 30%;
+}
+
+.form-control {
+    border-top-style: none;
+    border-left-style: none;
+    border-right-style: none;
+    border-color: #17a2b8;
+}
+
+.form-control-lg{
+    border-radius: 0px;
+}
+
+/*SAME AS INDEX*/
+.btn-info{
+    background-color: #a9bf04;
+    color: #2c4001;
+    border-color: #a9bf04;
+    cursor: pointer;
+}
+
+@media (max-width: 991px){
+    .paddingTopRow{
+        margin-top: 1.5em;
+    }
+}
+
+@media (min-width: 1280px){
+    #formBanner{
+        min-width: 100%;
+    }
+}
