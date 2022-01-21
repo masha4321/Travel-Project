@@ -84,6 +84,11 @@ h2, h3{
     
 }
 
+.hotelIcon{
+    width: 50px;
+    height: auto;
+  }
+
 @media (min-width: 340px){
     .navbar-nav .nav-link{
         padding-left: 30px;
